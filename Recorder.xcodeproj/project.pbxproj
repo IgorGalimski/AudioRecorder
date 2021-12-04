@@ -16,6 +16,7 @@
 		F87EF51F275B492600B85602 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F87EF51D275B492600B85602 /* LaunchScreen.storyboard */; };
 		F87EF529275B4E8B00B85602 /* CoreDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87EF528275B4E8B00B85602 /* CoreDataService.swift */; };
 		F87EF52C275B52B100B85602 /* AudioRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87EF52B275B52B100B85602 /* AudioRecorder.swift */; };
+		F87EF52E275B887900B85602 /* RecorderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87EF52D275B887900B85602 /* RecorderViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		F87EF520275B492600B85602 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F87EF528275B4E8B00B85602 /* CoreDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataService.swift; sourceTree = "<group>"; };
 		F87EF52B275B52B100B85602 /* AudioRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecorder.swift; sourceTree = "<group>"; };
+		F87EF52D275B887900B85602 /* RecorderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecorderViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				F87EF513275B492400B85602 /* ViewController.swift */,
+				F87EF52D275B887900B85602 /* RecorderViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 				F87EF529275B4E8B00B85602 /* CoreDataService.swift in Sources */,
 				F87EF512275B492400B85602 /* SceneDelegate.swift in Sources */,
 				F87EF51A275B492400B85602 /* Recorder.xcdatamodeld in Sources */,
+				F87EF52E275B887900B85602 /* RecorderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
