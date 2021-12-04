@@ -58,9 +58,9 @@
 		F87EF50E275B492300B85602 /* Recorder */ = {
 			isa = PBXGroup;
 			children = (
+				F87EF526275B498800B85602 /* ViewControllers */,
 				F87EF50F275B492400B85602 /* AppDelegate.swift */,
 				F87EF511275B492400B85602 /* SceneDelegate.swift */,
-				F87EF513275B492400B85602 /* ViewController.swift */,
 				F87EF515275B492400B85602 /* Main.storyboard */,
 				F87EF51B275B492500B85602 /* Assets.xcassets */,
 				F87EF51D275B492600B85602 /* LaunchScreen.storyboard */,
@@ -68,6 +68,14 @@
 				F87EF518275B492400B85602 /* Recorder.xcdatamodeld */,
 			);
 			path = Recorder;
+			sourceTree = "<group>";
+		};
+		F87EF526275B498800B85602 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F87EF513275B492400B85602 /* ViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,6 +304,7 @@
 				DEVELOPMENT_TEAM = GX4395UWKU;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Recorder/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Recorder;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -324,6 +333,7 @@
 				DEVELOPMENT_TEAM = GX4395UWKU;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Recorder/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Recorder;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
