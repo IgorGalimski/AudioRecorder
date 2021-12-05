@@ -20,6 +20,7 @@
 		F8B0EB46275B8ECD0067AF44 /* RecordingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B0EB44275B8ECD0067AF44 /* RecordingCell.swift */; };
 		F8B0EB47275B8ECD0067AF44 /* RecordingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8B0EB45275B8ECD0067AF44 /* RecordingCell.xib */; };
 		F8B0EB4A275CA5150067AF44 /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B0EB49275CA5150067AF44 /* UIButtonExtension.swift */; };
+		F8B0EB4C275CAF980067AF44 /* MainViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B0EB4B275CAF980067AF44 /* MainViewControllerExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		F8B0EB44275B8ECD0067AF44 /* RecordingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingCell.swift; sourceTree = "<group>"; };
 		F8B0EB45275B8ECD0067AF44 /* RecordingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecordingCell.xib; sourceTree = "<group>"; };
 		F8B0EB49275CA5150067AF44 /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
+		F8B0EB4B275CAF980067AF44 /* MainViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewControllerExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				F8B0EB49275CA5150067AF44 /* UIButtonExtension.swift */,
+				F8B0EB4B275CAF980067AF44 /* MainViewControllerExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 				F87EF52C275B52B100B85602 /* AudioRecorder.swift in Sources */,
 				F87EF514275B492400B85602 /* MainViewController.swift in Sources */,
 				F87EF510275B492400B85602 /* AppDelegate.swift in Sources */,
+				F8B0EB4C275CAF980067AF44 /* MainViewControllerExtension.swift in Sources */,
 				F8B0EB46275B8ECD0067AF44 /* RecordingCell.swift in Sources */,
 				F87EF529275B4E8B00B85602 /* CoreDataService.swift in Sources */,
 				F8B0EB4A275CA5150067AF44 /* UIButtonExtension.swift in Sources */,

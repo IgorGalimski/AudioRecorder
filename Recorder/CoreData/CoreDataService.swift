@@ -50,7 +50,7 @@ class CoreDataService
         }
     }
     
-    private func Save()
+    public func Save()
     {
         do
         {

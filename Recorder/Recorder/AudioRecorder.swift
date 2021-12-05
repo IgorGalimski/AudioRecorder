@@ -52,7 +52,7 @@ class AudioRecorder
         return recordingUrl!
     }
     
-    private func StartRecording()
+    public func StartRecording()
     {
         recordingSession = AVAudioSession.sharedInstance()
         
@@ -70,7 +70,7 @@ class AudioRecorder
         }
     }
     
-    private func StopRecording()
+    public func StopRecording() -> Data
     {
         audioRecorder.stop()
         
@@ -101,6 +101,8 @@ class AudioRecorder
         {
             recordedTrack = track
         }
+        
+        return recordedTrack!
     }
 }
 

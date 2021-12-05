@@ -43,6 +43,8 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
     {
+        HandleRecordingButton()
+        
         return CoreDataService.Shared.NumberOfItems()
     }
     
