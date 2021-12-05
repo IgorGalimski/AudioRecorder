@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		F87EF510275B492400B85602 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87EF50F275B492400B85602 /* AppDelegate.swift */; };
 		F87EF512275B492400B85602 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87EF511275B492400B85602 /* SceneDelegate.swift */; };
-		F87EF514275B492400B85602 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87EF513275B492400B85602 /* ViewController.swift */; };
+		F87EF514275B492400B85602 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87EF513275B492400B85602 /* MainViewController.swift */; };
 		F87EF517275B492400B85602 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F87EF515275B492400B85602 /* Main.storyboard */; };
 		F87EF51A275B492400B85602 /* Recorder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F87EF518275B492400B85602 /* Recorder.xcdatamodeld */; };
 		F87EF51C275B492500B85602 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F87EF51B275B492500B85602 /* Assets.xcassets */; };
@@ -17,13 +17,16 @@
 		F87EF529275B4E8B00B85602 /* CoreDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87EF528275B4E8B00B85602 /* CoreDataService.swift */; };
 		F87EF52C275B52B100B85602 /* AudioRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87EF52B275B52B100B85602 /* AudioRecorder.swift */; };
 		F87EF52E275B887900B85602 /* RecorderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87EF52D275B887900B85602 /* RecorderViewController.swift */; };
+		F8B0EB46275B8ECD0067AF44 /* RecordingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B0EB44275B8ECD0067AF44 /* RecordingCell.swift */; };
+		F8B0EB47275B8ECD0067AF44 /* RecordingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8B0EB45275B8ECD0067AF44 /* RecordingCell.xib */; };
+		F8B0EB4A275CA5150067AF44 /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B0EB49275CA5150067AF44 /* UIButtonExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F87EF50C275B492300B85602 /* Recorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F87EF50F275B492400B85602 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F87EF511275B492400B85602 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F87EF513275B492400B85602 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F87EF513275B492400B85602 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		F87EF516275B492400B85602 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F87EF519275B492400B85602 /* Recorder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Recorder.xcdatamodel; sourceTree = "<group>"; };
 		F87EF51B275B492500B85602 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -32,6 +35,9 @@
 		F87EF528275B4E8B00B85602 /* CoreDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataService.swift; sourceTree = "<group>"; };
 		F87EF52B275B52B100B85602 /* AudioRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecorder.swift; sourceTree = "<group>"; };
 		F87EF52D275B887900B85602 /* RecorderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecorderViewController.swift; sourceTree = "<group>"; };
+		F8B0EB44275B8ECD0067AF44 /* RecordingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingCell.swift; sourceTree = "<group>"; };
+		F8B0EB45275B8ECD0067AF44 /* RecordingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecordingCell.xib; sourceTree = "<group>"; };
+		F8B0EB49275CA5150067AF44 /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +70,8 @@
 		F87EF50E275B492300B85602 /* Recorder */ = {
 			isa = PBXGroup;
 			children = (
+				F8B0EB48275CA4F20067AF44 /* Extension */,
+				F8B0EB43275B8E7E0067AF44 /* XibFiles */,
 				F87EF52A275B528C00B85602 /* Recorder */,
 				F87EF527275B4E7400B85602 /* CoreData */,
 				F87EF526275B498800B85602 /* ViewControllers */,
@@ -81,7 +89,7 @@
 		F87EF526275B498800B85602 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				F87EF513275B492400B85602 /* ViewController.swift */,
+				F87EF513275B492400B85602 /* MainViewController.swift */,
 				F87EF52D275B887900B85602 /* RecorderViewController.swift */,
 			);
 			path = ViewControllers;
@@ -101,6 +109,23 @@
 				F87EF52B275B52B100B85602 /* AudioRecorder.swift */,
 			);
 			path = Recorder;
+			sourceTree = "<group>";
+		};
+		F8B0EB43275B8E7E0067AF44 /* XibFiles */ = {
+			isa = PBXGroup;
+			children = (
+				F8B0EB44275B8ECD0067AF44 /* RecordingCell.swift */,
+				F8B0EB45275B8ECD0067AF44 /* RecordingCell.xib */,
+			);
+			path = XibFiles;
+			sourceTree = "<group>";
+		};
+		F8B0EB48275CA4F20067AF44 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F8B0EB49275CA5150067AF44 /* UIButtonExtension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +189,7 @@
 				F87EF51F275B492600B85602 /* LaunchScreen.storyboard in Resources */,
 				F87EF51C275B492500B85602 /* Assets.xcassets in Resources */,
 				F87EF517275B492400B85602 /* Main.storyboard in Resources */,
+				F8B0EB47275B8ECD0067AF44 /* RecordingCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,9 +201,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F87EF52C275B52B100B85602 /* AudioRecorder.swift in Sources */,
-				F87EF514275B492400B85602 /* ViewController.swift in Sources */,
+				F87EF514275B492400B85602 /* MainViewController.swift in Sources */,
 				F87EF510275B492400B85602 /* AppDelegate.swift in Sources */,
+				F8B0EB46275B8ECD0067AF44 /* RecordingCell.swift in Sources */,
 				F87EF529275B4E8B00B85602 /* CoreDataService.swift in Sources */,
+				F8B0EB4A275CA5150067AF44 /* UIButtonExtension.swift in Sources */,
 				F87EF512275B492400B85602 /* SceneDelegate.swift in Sources */,
 				F87EF51A275B492400B85602 /* Recorder.xcdatamodeld in Sources */,
 				F87EF52E275B887900B85602 /* RecorderViewController.swift in Sources */,

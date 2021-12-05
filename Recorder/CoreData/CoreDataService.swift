@@ -18,7 +18,7 @@ class CoreDataService
 {
     static let Shared = CoreDataService()
     
-    lazy var recordedData: [Recorder] = []
+    lazy var recordedData: [Recorded] = []
     
     init()
     {
@@ -35,10 +35,10 @@ class CoreDataService
         return (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
     }
     
-    private func LoadCoreData()
+    public func LoadCoreData()
     {
-        let fetchRequest: NSFetchRequest<Recorder> = Recorder.fetchRequest()
-        fetchRequest.sortDescriptors = [NSSortDescriptor(key: #keyPath(Recorder.date), ascending: false)]
+        let fetchRequest: NSFetchRequest<Recorded> = Recorded.fetchRequest()
+        fetchRequest.sortDescriptors = [NSSortDescriptor(key: #keyPath(Recorded.date), ascending: false)]
         
         do
         {
